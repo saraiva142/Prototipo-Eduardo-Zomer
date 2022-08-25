@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon"
+        href="https://static.wixstatic.com/media/2549e2_44234ec8a8954aeead17f91323ada5a9~mv2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/2549e2_44234ec8a8954aeead17f91323ada5a9~mv2.jpg"
+        type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Protótipo Eduardo Zomer </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Eduardo Zomer</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Theme-Change-Buttom-->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container conatiner grid">
+                <div class="home__data">
+                    <span class="home__greeting">Olá, sou</span>
+                    <h1 class="home__name">Eduardo Zomer</h1>
+                    <h3 class="home__education">otorrinolaringologista</h3>
+
+                    <div class="home__buttons">
+                        <a download="" href="assets/pdf/Ansel-Cv.pdf" class="button button--ghost">
+                            Baixar Currículo
+                        </a>
+                        <a href="#about" class="button">Sobre mim</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/perfil-edu.png" alt="" class="home__img">
+                </div>
+                <div class="home__social">
+                    <a href="https://www.youtube.com/channel/UCWULLW9vLXa3bvFqPv8B0jQ" target="_blank"
+                        class="home__social-link">
+                        <i class='bx bxl-youtube'></i>
+                    </a>
+                    <a href="https://www.instagram.com/dreduardozomer/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="https://www.instagram.com/dreduardozomer/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bxs-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">Minha Introdução</span>
+            <h2 class="section__title">Sobre mim</h2>
+
+            <div class="about__container container grid">
+                <img src="https://static.wixstatic.com/media/2549e2_56351ae58d6a418e9c589da7d24032b1~mv2.png/v1/fill/w_408,h_601,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Cabe%C3%A7a%20Vetorizada%20OFICIAL%20-%20Dr%20Eduardo%20Zomer.png"
+                    alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Experiência</h3>
+                            <span class="about__subtitle">+10 anos</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-plus-medical about__icon'></i>
+                            <h3 class="about__title">Hospital</h3>
+                            <span class="about__subtitle">Hospital Israelita Albert Einstein - Clínica FK</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-male about__icon'></i>
+                            <h3 class="about__title">Especialidade</h3>
+                            <span class="about__subtitle">Otorrinolaringologista</span>
+                        </div>
+
+                    </div>
+                    <p class="about__description">
+                        Olá! Seja muito bem vindo. Estou muito feliz de ter você aqui.
+                        Me Chamo Eduardo Zomer e sou médico otorrinolaringologista. Iniciei minha formação em
+                        meu estado natal, Santa Catarina, e desde 2016 resido em São Paulo. Hoje dou especial
+                        atenção para cirurgias estéticas e funcionais faciais.
+                        <br>
+                        <br>
+                        Meu propósito como profissional é ser um meio para meus pacientes seguirem no caminho
+                        de seus objetivos. Durante esse processo dou atenção a tudo que envolve o procedimento
+                        de consulta, cirurgia e pós operatório. A medicina moderna para mim é a troca de
+                        informações equilibrada com o paciente cada vez mais bem informado. Minha equipe
+                        recebe treinamento periódico para que melhoremos cada dia mais a experiência do
+                        paciente.
+                    </p>
+
+                    <a href="#contact" class="button">Contato</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">Procedimentos</span>
+            <h2 class="section__title">Procedimentos Realizados</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Rinoplastia</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name"></h3>
+                                    <span class="skills__levels">
+                                        O nariz é uma das partes do rosto que causam maior impacto, já que está no
+                                        centro da face. Graças a isso, pequenas correções podem contribuir com o aspecto
+                                        e a autoestima do paciente.
+                                        Além disso, o otorrinolaringologista pode associar ao procedimento a correção de
+                                        desvio do septo ou cirurgias de sinusite, aliando a forma e função do nariz.
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Otoplastia</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name"></h3>
+                                    <span class="skills__levels">
+                                        Ainda visando a harmonia e beleza da face e a melhoria na auto estima do
+                                        paciente, a otoplastia é a cirurgia que proporciona uma aparência natural às
+                                        orelhas, corrigindo anormalidades estéticas e as dando proporção. Outra cirurgia
+                                        responsável pela estética das orelhas, embora mais simples, é a Lobuloplastia,
+                                        na qual reconstrói-se lóbulos rasgados.
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Mentoplastia</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name"></h3>
+                                    <span class="skills__levels">
+                                        Muitas vezes, não somente o nariz influencia na harmonia facial. A mentoplastia
+                                        é a cirurgia realizada para a correção estética da região do mento (queixo). Com
+                                        o procedimento, é possível aumentar ou diminuir o tamanho e volume da região,
+                                        além de corrigir assimetrias e outros tipos de deformidades que podem afetar a
+                                        saúde do paciente.
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Entrar em Contato</span>
+            <h2 class="section__title">Contato</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Fale comigo</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bxl-gmail contact__card-icon'></i>
+                            <h3 class="contact__card-title">E-mail</h3>
+                            <span class="contact__card-data">user@gmail.com</span>
+
+                            <a href="mailto:saraivajandrade@gmail.com" target="_blank" class="contact__button">
+                                Escreva-me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">62 98234-3820</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=62982343820&text=Olá, quero mais informações!"
+                                target="_blank" class="contact__button">
+                                Escreva-me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-instagram contact__card-icon'></i>
+                            <h3 class="contact__card-title">Instagram</h3>
+                            <span class="contact__card-data">@user_dr</span>
+
+                            <a href="https://www.instagram.com/dreduardozomer/" target="_blank" class="contact__button">
+                                Escreva-me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Fale comigo</h3>
+
+                    <form action="https://formsubmit.co/saraivajandrade@gmail.com" method="POST"
+                        class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Nome</label>
+                                <input type="text" name="name" class="contact__input" required>
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">E-mail</label>
+                                <input type="email" name="email" class="contact__input" required>
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Ocorrência</label>
+                            <input type="text" class="contact__input" required>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Menssagem</label>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <!--<button type="submit">Send</button>-->
+                        <div>
+                            <a href="#" type="submit" class="button button--flex">
+                                <button type="submit" class="button button--fi">Mandar Menssagem</button>
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="https://static.wixstatic.com/media/2549e2_44234ec8a8954aeead17f91323ada5a9~mv2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/2549e2_44234ec8a8954aeead17f91323ada5a9~mv2.jpg"
+                        alt="icon">
+                    Eduardo Zomer
+                </a>
+                <p class="footer__description">
+                    A Clínica FK é formada por médicos de diferentes especialidades <br>
+                    com um objetivo em comum: tornar os procedimentos estéticos um canal <br>
+                    de conexão entre beleza e bem-estar, transformando-os em ferramenta de incentivo a autoestima.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Clínica FK
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">História</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Infomações
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#contact" class="footer__link">Solicitar um orçamento</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Me Contate</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <span class="footer__copy">
+            &#169; Eduardo Zomer. Todos direitos reservados.
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
